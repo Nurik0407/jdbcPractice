@@ -32,13 +32,13 @@ public class App {
         /** sorted by age **/
 //        System.out.println(studentService.getAllStudentsSortByAge("descending"));
         /** chek by age **/
-
+//        System.out.println(studentService.checkByAge());
         /** add column **/
 //        studentService.addColumnGender();
         /** group gender **/
-
+//        System.out.println(studentService.gruopByGender());
         /** truncate table **/
-//        studentService.deleteAllStudents();
+        studentService.deleteAllStudents();
 
     }
 }
